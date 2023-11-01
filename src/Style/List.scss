@@ -1,0 +1,28 @@
+.coin {
+  width: 20%; // Adjust the width and gap as needed
+  text-align: center;
+  background-color: rgb(227, 227, 227);
+  padding: 20px;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+
+  img {
+    width: 60px;
+    border-radius: 50%; // Makes the image circular
+  }
+
+  h1:last-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+}
