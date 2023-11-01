@@ -4,7 +4,7 @@ const Author = () => {
   return (
     <div className="author">
       <img
-        src="src/assets/d.jpg" // Replace with the path to your author's image
+        src="https://imageupload.io/ib/CGGYglhZ4dhtTtU_1698862372.jpg" // Replace with the path to your author's image
         alt="Author's Image"
         className="author-image"
       />
