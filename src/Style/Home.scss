@@ -1,8 +1,41 @@
-.home{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    justify-content: space-around;
-    margin-top: 2rem;
+.home {
+  display: flex;
+  flex-wrap: wrap; // Apply flex-wrap to the container
+  justify-content: center; // Center the items horizontally
+  align-items: center; // Center the items vertically
+  max-width: 100%; // Ensure the container doesn't exceed its parent's width
 }
+
+.coin {
+
+  flex: 0 0 20%; // Adjust the width as needed, and prevent the child elements from growing or shrinking
+  text-align: center;
+  background-color: rgb(227, 227, 227);
+  padding: 20px;
+  margin: 50px 10px; // Add margin to create spacing between the .coin elements
+
+  h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+
+  img {
+    width: 60px;
+    border-radius: 50%;
+  }
+
+  h1:last-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 6650px) {
+    .home {
+        display: flex;
+        flex-wrap: wrap; // Apply flex-wrap to the container
+        justify-content: center; // Center the items horizontally
+        align-items: center; // Center the items vertically
+        max-width: 100%; // Ensure the container doesn't exceed its parent's width
+      }
+  }
